@@ -41,6 +41,9 @@ python manage.py runserver
 ## Technologies Used
 Python (requests), Django (django-mptt, django-sslserver, django-mathfilters) plus Spotify API integration.
 
+## Credits
+This was a group project from my time at Kenzie Academy, worked on by myself, [Malcolm Bett](https://www.linkedin.com/in/malcolm-bett/), [Cassandra Johnson](https://www.linkedin.com/in/cassandra-johnson-a827501a1/), [Cedrick Randolph](https://www.linkedin.com/in/cedrick-randolph-090419206/), and [Lorenzo Ginyard](https://www.linkedin.com/in/lorenzo-ginyard/)
+
 ---
 
 
