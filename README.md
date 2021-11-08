@@ -1,17 +1,47 @@
 # REDDIfy
 
-A Reddit like site where users are able to create communities, have fun and share music.
+A Reddit-clone application where users are able to create communities, post, upvote or downvote posts, and share music using the Spotify API.
 
-#### **Your Task**
+## Getting Started
 
-After cloning down the repository, start by running the poetry environment.
+Navigate to https://reddify.herokuapp.com/
 
->`poetry install`
-> 
->`poetry shell`
+OR
 
-then run migrations using the command below to create the database.
->`python manage.py migrate`
+Clone down the repository.
+
+```bash
+git clone git@github.com:vitollom/reddify.git
+```
+
+Install dependencies
+
+```bash
+poetry install
+```
+
+Create virtual environment
+
+```bash 
+poetry shell
+```
+
+Run migrations using the command below to create the database.
+
+```bash
+python manage.py migrate
+```
 
 Last but not least run command below to start server then enjoy site.
->`python manage.py runserver`
+
+```bash
+python manage.py runserver
+```
+
+## Technologies Used
+Python (requests), Django (django-mptt, django-sslserver, django-mathfilters) plus Spotify API integration.
+
+---
+
+
+
